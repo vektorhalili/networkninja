@@ -1,9 +1,8 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class='page-header'>
-    All Devices
-</div>
 
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">All Devices</h3>
   <body>
     {% for device in devices %}
     </br>
@@ -15,7 +14,8 @@
     </br>
    Device username: {{ device.user }}
     </br>
-    </br> 
+    </br>
    {% endfor %}
   </body>
+</div>
 {% endblock %}
