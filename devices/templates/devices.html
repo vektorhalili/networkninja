@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<html>
+  <head>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/devices.css' %}">
+    <title>Devices</title>
+  </head>
+
+<div class='page-header'>
+    All Devices
+</div>
+
+  <body>
+    
+    <article>
+    {% for device in devices %}
+    </br>
+   Device name: {{ device.name }}
+    </br>
+   Device type: {{ device.type }}
+    </br>
+   Device IP: {{ device.ipadd }}
+    </br>
+   Device username: {{ device.user }}
+    </br>
+    </br> 
+   {% endfor %}
+    </article>
+  </body>
+</html>
+
