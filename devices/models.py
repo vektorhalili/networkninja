@@ -11,10 +11,18 @@ class Device(models.Model):
     ipadd = models.GenericIPAddressField()
     user = models.CharField(max_length=30)
     password = models.CharField(max_length=30)
+    enable = models.CharField(max_length=30)
 
     def publish(self):
         self.save()
     def __str__(self):
         return self.name
+
+
+class Client(models.Model):
+          mac = models.CharField(max_length=19)
+          ipadd = models.GenericIPAddressField()
+
+
 
 #class Client(models.Model):

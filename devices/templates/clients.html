@@ -1,0 +1,28 @@
+{% load staticfiles %}
+<html>
+  <head>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/devices.css' %}">
+    <title>Clients</title>
+  </head>
+
+<div class='page-header'>
+    All Clients
+</div>
+
+  <body>
+
+    <article>
+    {% for client in clients %}
+    </br>
+   Client IP: {{ client.mac }}
+    </br>
+   Client MAC: {{ client.ipadd }}
+    </br>
+    </br>
+   {% endfor %}
+    </article>
+  </body>
+</html>
+
