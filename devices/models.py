@@ -23,6 +23,3 @@ class Client(models.Model):
           mac = models.CharField(max_length=19)
           ipadd = models.GenericIPAddressField()
 
-
-
-#class Client(models.Model):

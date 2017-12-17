@@ -32,12 +32,13 @@ def devices(request):
 			devicename = form.cleaned_data['name']
 			try:
 				device = Device.objects.get(name__iexact=devicename)
+				devicename = device.name
 				ipadd = device.ipadd
 				type = device.type
 				user = device.user
 				password = device.password
 				device = get_device_arp(ipadd, type, user, password)
-				return render(request, 'devicearp.html',{'device': device})
+				return render(request, 'devicearp.html',{'device': device,'devicename': devicename})
 			except Exception:
 				raise Http404
 	else:
