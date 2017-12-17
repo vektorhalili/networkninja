@@ -27,5 +27,5 @@ def debug_task(self):
 app.conf.beat_schedule = {
     'update_all_arp': {
         'task': 'update_all_arp',
-        'schedule': crontab()}
+        'schedule': crontab(minute='*/15')}
 }
