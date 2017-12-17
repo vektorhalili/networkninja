@@ -20,6 +20,9 @@ class Device(models.Model):
 
 
 class Client(models.Model):
-          mac = models.CharField(max_length=19)
-          ipadd = models.GenericIPAddressField()
-
+	mac = models.CharField(max_length=19)
+	ipadd = models.GenericIPAddressField()
+	def publish(self):
+		self.save()
+	def __str__(self):
+		return self
