@@ -14,8 +14,12 @@
     </br>
    Device username: {{ device.user }}
     </br>
+   <form method="POST" class="post-form">{% csrf_token %}
+        <button type="submit" name="name" value="{{ device.name  }}"  class="save btn btn-default">ARP</button>
+    </form>
     </br>
    {% endfor %}
+<a href="{% url 'post_device' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
   </body>
 </div>
 {% endblock %}
