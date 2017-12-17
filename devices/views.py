@@ -50,20 +50,6 @@ def clients(request):
     clients = Client.objects.all()
     return render(request, 'clients.html',{'clients': clients})
 
-def getdevicearp(request):
-	requestdevice = request.POST["getdevicearp"]
-	if (requestdevice):
-		#requestdevice = request.GET.get('getdevicearp', '')
-		#device = Device.objects.get(name__iexact=requestdevice)
-		device = Device.objects.get(name__iexact=requestdevice)
-		#device = Device(name=requestdevice)
-		ipadd = device.ipadd
-		type = device.type
-		user = device.user
-		password = device.password
-		device = get_device_arp(ipadd, type, user, password)
-		return render(request, 'devicearp.html',{'device': device})
-
 def post_device(request):
 	if request.method == "POST":
 		form = PostDevice(request.POST)
@@ -71,5 +57,5 @@ def post_device(request):
 			form.save()
 			return redirect('/devices')
 	else:
-		form = PostDevice()
+		form = PostDevice(initial={'type': 'ios'})
 		return render(request, 'post_device.html', {'form': form})
