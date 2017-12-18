@@ -7,3 +7,6 @@ class PostDevice(forms.ModelForm):
 		fields = ('name','ipadd','type','user','password')
 class ArpDevice(forms.Form):
 	name = forms.CharField(max_length=20)
+
+class ConfigDevice(forms.Form):
+	name = forms.CharField(max_length=20)

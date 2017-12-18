@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Config for: {{ devicename }}</h3>
+  <body>
+   ###BEGIN CONFIG### 
+   </br>
+    <code>
+   {{ config }}
+    </code>
+    </br>
+   ###END CONFIG###
+  </body>
+</div>
+{% endblock %}
+
