@@ -4,6 +4,7 @@
 <div class="container-fluid bg-2 text-center">
   <h3 class="margin">All Devices</h3>
   <body>
+	<p>
     {% for device in devices %}
     </br>
    Device name: {{ device.name }}
@@ -21,8 +22,14 @@
     <form method="POST" class="post-form">{% csrf_token %}
         <button type="submit" name="name" value="config:{{ device.name  }}"  class="save btn btn-default">CONFIG</button>
     </form>
+    <form method="POST" class="post-form">{% csrf_token %}
+        <button type="submit" name="name" value="facts:{{ device.name  }}"  class="save btn btn-default">FACTS</button>
+    </form>
+
+
    {% endfor %}
 <a href="{% url 'post_device' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span> Add Device</a>
-  </body>
+</p>  
+</body>
 </div>
 {% endblock %}

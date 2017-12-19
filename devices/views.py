@@ -6,21 +6,53 @@ from django.http import HttpResponse
 from napalm import get_network_driver
 from devices.models import Device
 from devices.models import Client
+from devices.models import DeviceFacts
 from .forms import PostDevice
 from .forms import ArpDevice
 from .forms import ConfigDevice
+from .forms import DeviceFactsForm
 from django.shortcuts import redirect
 from django.http import Http404
+from django.views.generic import FormView
+from django.views.generic import ListView
 
 def get_device_arp(ipadd, type, user, password):
     try:
         driver = get_network_driver(type)
-        device = driver(ipadd, user, password)
+        optional_args = {'secret': password}
+        device = driver(ipadd, user, password, optional_args=optional_args)
         device.open()
         arp = device.get_arp_table()
+        device.close()
         return(arp)
     except:
         arp='was not able to get device arp'
+
+def get_device_config(ipadd, type, user, password):
+    try:
+        driver = get_network_driver(type)
+        optional_args = {'secret': password}
+        device = driver(ipadd, user, password, optional_args=optional_args)
+        device.open()
+        config = device.get_config()
+        config = config['startup']
+        device.close()
+        return(config)
+    except Exception:
+        config='was not able to pull device config'
+
+def get_device_facts(ipadd, type, user, password):
+    try:
+        driver = get_network_driver(type)
+        optional_args = {'secret': password}
+        device = driver(ipadd, user, password, optional_args=optional_args)
+        device.open()
+        devicefacts = device.get_facts()
+        device.close()
+        return(devicefacts)
+    except Exception:
+        devicefacts='was not able to pull device facts'
+
 
 def index(request):
    return render(request, 'index.html', {})
@@ -28,20 +60,13 @@ def index(request):
 def devices(request):
 	##if post it means we are passing the name of device here to get arp
 	if request.method == "POST" and "arp:" in (request.POST['name']):
-		print(request.POST)
+		#print(request.POST)
 		form = ArpDevice(request.POST)
 		if form.is_valid():
-			devicename = form.cleaned_data['name']
-			devicename = devicename.split(':')
-			devicename = devicename[1]
+			devicename = form.cleaned_data['name'].split(':')[1]
 			try:
 				device = Device.objects.get(name__iexact=devicename)
-				devicename = device.name
-				ipadd = device.ipadd
-				type = device.type
-				user = device.user
-				password = device.password
-				device = get_device_arp(ipadd, type, user, password)
+				device = get_device_arp(device.ipadd, device.type, device.user, device.password)
 				return render(request, 'devicearp.html',{'device': device,'devicename': devicename})
 			except Exception:
 				raise Http404
@@ -49,29 +74,27 @@ def devices(request):
 		 #if post and contains config it means we clicked config button
 		form = ConfigDevice(request.POST)
 		if form.is_valid():
-			devicename = form.cleaned_data['name']
-			devicename = devicename.split(':')
-			devicename = devicename[1]
+			devicename = form.cleaned_data['name'].split(':')[1]
 			try:
 				device = Device.objects.get(name__iexact=devicename)
-				devicename = device.name
-				ipadd = device.ipadd
-				type = device.type
-				user = device.user
-				password = device.password
-				driver = get_network_driver(type)
-				device = driver(ipadd, user, password)
-				device.open()
-				config = device.get_config()
-				config = config['startup']
-				device.close()
+				config = get_device_config(device.ipadd, device.type, device.user, device.password)
 				return render(request, 'deviceconfig.html',{'config': config,'devicename': devicename})
 			except Exception:
 				raise Http404
+	elif request.method == "POST" and "facts:" in (request.POST['name']):
+		#if post and contains config it means we clicked FACTS button
+		form = DeviceFactsForm(request.POST)
+		if form.is_valid():
+			devicename = form.cleaned_data['name'].split(':')[1]
+			try:
+				device = Device.objects.get(name__iexact=devicename)
+				devicefacts = get_device_facts(device.ipadd, device.type, device.user, device.password)
+				return render(request, 'devicefacts.html',{'devicefacts': devicefacts,'devicename': devicename})
+			except Exception:
+				raise Http404
 	else:
-		form = ArpDevice()
 		devices = Device.objects.all()
-		return render(request, 'devices.html',{'devices': devices, 'form': form})
+		return render(request, 'devices.html',{'devices': devices})
 
 def clients(request):
     clients = Client.objects.all()
@@ -86,3 +109,14 @@ def post_device(request):
 	else:
 		form = PostDevice(initial={'type': 'ios'})
 		return render(request, 'post_device.html', {'form': form})
+
+#class DeviceFactsView(FormView):
+#	template_name = '/device_facts.html'
+#	form_class = DeviceFactsForm
+#	success_url = '/device_facts.html'
+#	def form_valid(self, form):
+#		form.get_facts()
+#		return super().form_valid(form)
+#
+
+
