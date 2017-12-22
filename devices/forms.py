@@ -27,3 +27,6 @@ class ConfigDevice(forms.Form):
 
 class DeviceFactsForm(forms.Form):
 	name = forms.CharField(max_length=20)
+
+class DeviceNameForm(forms.Form):
+	name = forms.CharField(max_length=30)

@@ -2,6 +2,7 @@
 {% block content %}
 
 <div class="container-fluid bg-2 text-center">
+
   <h3 class="margin">All Devices</h3>
   <body>
 	<p>
@@ -16,20 +17,32 @@
    Device username: {{ device.user }}
     </br>
     </br>
-   <form method="POST" class="post-form">{% csrf_token %}
-        <button type="submit" name="name" value="arp:{{ device.name  }}"  class="save btn btn-default">ARP</button>
+
+
+   <form method="POST" action="arp/device" class="post-form">{% csrf_token %}
+        <button type="submit" name="name" value="{{ device.name  }}"  class="save btn btn-default">ARP</button>
     </form>
+
+
+
     <form method="POST" class="post-form">{% csrf_token %}
         <button type="submit" name="name" value="config:{{ device.name  }}"  class="save btn btn-default">CONFIG</button>
     </form>
+
+
+
+
     <form method="POST" class="post-form">{% csrf_token %}
         <button type="submit" name="name" value="facts:{{ device.name  }}"  class="save btn btn-default">FACTS</button>
     </form>
 
 
+
+
    {% endfor %}
-<a href="{% url 'post_device' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span> Add Device</a>
+<a href="/post_device" class="top-menu"><span class="glyphicon glyphicon-plus"></span> Add Device</a>
 </p>  
+
 </body>
 </div>
 {% endblock %}

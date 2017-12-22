@@ -1,0 +1,154 @@
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+/root/venvs/cisco/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-12-21 01:52:45,820: INFO/MainProcess] Connected to redis://localhost:6379//
+[2017-12-21 01:52:45,831: INFO/MainProcess] mingle: searching for neighbors
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+[2017-12-21 01:52:46,856: INFO/MainProcess] mingle: all alone
+[2017-12-21 01:52:46,869: WARNING/MainProcess] /root/venvs/cisco/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-12-21 01:52:46,869: INFO/MainProcess] celery@ubuntusrv ready.
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@ubuntusrv v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.13.0-19-generic-x86_64-with-Ubuntu-17.10-artful 2017-12-21 01:52:45
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         cisco_project:0x7f4306b8e518
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . cisco_project.celery.debug_task
+  . update_all_arp
+
+/root/venvs/cisco/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-12-21 02:05:46,546: INFO/MainProcess] Connected to redis://localhost:6379//
+[2017-12-21 02:05:46,556: INFO/MainProcess] mingle: searching for neighbors
+[2017-12-21 02:05:47,580: INFO/MainProcess] mingle: all alone
+[2017-12-21 02:05:47,590: WARNING/MainProcess] /root/venvs/cisco/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-12-21 02:05:47,590: INFO/MainProcess] celery@ubuntusrv ready.

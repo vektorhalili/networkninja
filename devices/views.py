@@ -7,14 +7,21 @@ from napalm import get_network_driver
 from devices.models import Device
 from devices.models import Client
 from devices.models import DeviceFacts
+from .import models
 from .forms import PostDevice
 from .forms import ArpDevice
 from .forms import ConfigDevice
 from .forms import DeviceFactsForm
+from .forms import DeviceNameForm
 from django.shortcuts import redirect
 from django.http import Http404
+from django.urls import reverse
 from django.views.generic import FormView
 from django.views.generic import ListView
+from django.views.generic import DetailView
+from django.views.generic import View
+from django.views.generic import TemplateView
+from django.views.generic.base import TemplateResponseMixin, ContextMixin
 
 def get_device_arp(ipadd, type, user, password):
     try:
@@ -110,13 +117,48 @@ def post_device(request):
 		form = PostDevice(initial={'type': 'ios'})
 		return render(request, 'post_device.html', {'form': form})
 
-#class DeviceFactsView(FormView):
-#	template_name = '/device_facts.html'
-#	form_class = DeviceFactsForm
-#	success_url = '/device_facts.html'
-#	def form_valid(self, form):
-#		form.get_facts()
-#		return super().form_valid(form)
-#
+class ClientsListView(ListView):
+    context_object_name = 'clients'
+    model = models.Client
+    template_name = 'clients.html'
+
+class mytestview(View):
+	def get(self,request):
+		return HttpResponse('this page matched the mytestview GET method')
+
+#class ArpDeviceView(View):
+#    form_class = DeviceNameForm
+#    template_name = 'devicearp.html'
+#    def post(self, request, *args, **kwargs):
+#        form = self.form_class(request.POST)
+#        form.is_valid()
+#        def form_valid():
+#            devicename = form.cleaned_data['name']
+#            try:
+#                device = Device.objects.get(name__iexact=devicename)
+#                device = get_device_arp(device.ipadd, device.type, device.user, device.password)
+#                return render(request, 'devicearp.html',{'devicefacts': devicefacts,'devicename': devicename})
+#            except Exception:
+#                #raise Http404
+#                print('error in getting the arp')
+#        form.is_valid()
 
 
+class ArpDeviceView(View):
+    template_name = 'devicearp.html'
+    form_class = DeviceNameForm
+    def post(self, request, *args, **kwargs):
+        form = self.form_class(request.POST)
+        if form.is_valid():
+            devicename = form.cleaned_data['name']
+            try:
+                device = Device.objects.get(name__iexact=devicename)
+                print(device.ipadd)
+                print(device.type)
+                print(device.user)
+                print(device.password)
+                device = get_device_arp(device.ipadd, device.type, device.user, device.password)
+            except Exception:
+                #raise Http404
+                print('error in try block getting device arp')
+            return render(request, self.template_name, {'devicename': devicename, 'device' : device})
