@@ -152,3 +152,133 @@ User information: uid=0 euid=0 gid=0 egid=0
 [2017-12-21 02:05:47,590: WARNING/MainProcess] /root/venvs/cisco/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
   warnings.warn('Using settings.DEBUG leads to a memory leak, never '
 [2017-12-21 02:05:47,590: INFO/MainProcess] celery@ubuntusrv ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@ubuntusrv v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.13.0-19-generic-x86_64-with-Ubuntu-17.10-artful 2017-12-21 02:05:46
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         cisco_project:0x7f54638004a8
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . cisco_project.celery.debug_task
+  . update_all_arp
+
+/root/venvs/cisco/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-12-22 19:09:05,362: INFO/MainProcess] Connected to redis://localhost:6379//
+[2017-12-22 19:09:05,370: INFO/MainProcess] mingle: searching for neighbors
+[2017-12-22 19:09:06,388: INFO/MainProcess] mingle: all alone
+[2017-12-22 19:09:06,402: WARNING/MainProcess] /root/venvs/cisco/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-12-22 19:09:06,402: INFO/MainProcess] celery@ubuntusrv ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@ubuntusrv v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.13.0-19-generic-x86_64-with-Ubuntu-17.10-artful 2017-12-22 19:09:05
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         cisco_project:0x7fc47b40a518
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . cisco_project.celery.debug_task
+  . update_all_arp
+
+/root/venvs/cisco/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-12-22 19:09:17,149: INFO/MainProcess] Connected to redis://localhost:6379//
+[2017-12-22 19:09:17,159: INFO/MainProcess] mingle: searching for neighbors
+[2017-12-22 19:09:18,182: INFO/MainProcess] mingle: all alone
+[2017-12-22 19:09:18,194: WARNING/MainProcess] /root/venvs/cisco/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-12-22 19:09:18,195: INFO/MainProcess] celery@ubuntusrv ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@ubuntusrv v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.13.0-19-generic-x86_64-with-Ubuntu-17.10-artful 2017-12-22 19:09:17
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         cisco_project:0x7fdedcf3d518
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . cisco_project.celery.debug_task
+  . update_all_arp
+
+/root/venvs/cisco/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2017-12-22 20:32:34,055: INFO/MainProcess] Connected to redis://localhost:6379//
+[2017-12-22 20:32:34,064: INFO/MainProcess] mingle: searching for neighbors
+[2017-12-22 20:32:35,083: INFO/MainProcess] mingle: all alone
+[2017-12-22 20:32:35,092: WARNING/MainProcess] /root/venvs/cisco/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-12-22 20:32:35,092: INFO/MainProcess] celery@ubuntusrv ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@ubuntusrv v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.13.0-19-generic-x86_64-with-Ubuntu-17.10-artful 2017-12-22 20:32:33
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         cisco_project:0x7fbafb917518
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . cisco_project.celery.debug_task
+  . update_all_arp
+

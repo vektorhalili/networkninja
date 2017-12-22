@@ -3,11 +3,11 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
-from napalm import get_network_driver
+#from napalm import get_network_driver
 from devices.models import Device
 from devices.models import Client
 from devices.models import DeviceFacts
-from .import models
+from . import models
 from .forms import PostDevice
 from .forms import ArpDevice
 from .forms import ConfigDevice
@@ -22,44 +22,7 @@ from django.views.generic import DetailView
 from django.views.generic import View
 from django.views.generic import TemplateView
 from django.views.generic.base import TemplateResponseMixin, ContextMixin
-
-def get_device_arp(ipadd, type, user, password):
-    try:
-        driver = get_network_driver(type)
-        optional_args = {'secret': password}
-        device = driver(ipadd, user, password, optional_args=optional_args)
-        device.open()
-        arp = device.get_arp_table()
-        device.close()
-        return(arp)
-    except:
-        arp='was not able to get device arp'
-
-def get_device_config(ipadd, type, user, password):
-    try:
-        driver = get_network_driver(type)
-        optional_args = {'secret': password}
-        device = driver(ipadd, user, password, optional_args=optional_args)
-        device.open()
-        config = device.get_config()
-        config = config['startup']
-        device.close()
-        return(config)
-    except Exception:
-        config='was not able to pull device config'
-
-def get_device_facts(ipadd, type, user, password):
-    try:
-        driver = get_network_driver(type)
-        optional_args = {'secret': password}
-        device = driver(ipadd, user, password, optional_args=optional_args)
-        device.open()
-        devicefacts = device.get_facts()
-        device.close()
-        return(devicefacts)
-    except Exception:
-        devicefacts='was not able to pull device facts'
-
+from .cisco_commands import *
 
 def index(request):
    return render(request, 'index.html', {})
@@ -103,10 +66,6 @@ def devices(request):
 		devices = Device.objects.all()
 		return render(request, 'devices.html',{'devices': devices})
 
-def clients(request):
-    clients = Client.objects.all()
-    return render(request, 'clients.html',{'clients': clients})
-
 def post_device(request):
 	if request.method == "POST":
 		form = PostDevice(request.POST)
@@ -132,8 +91,9 @@ class ArpDeviceView(View):
             try:
                 device = Device.objects.get(name__iexact=devicename)
                 device = get_device_arp(device.ipadd, device.type, device.user, device.password)
-            except Exception:
-                raise Http404
+            except Exception as arperror:
+                #raise Http404
+                print(f'the error was: {arperror}')
             return render(request, self.template_name, {'devicename': devicename, 'device' : device})
 
 

@@ -1,18 +1,9 @@
 from __future__ import absolute_import, unicode_literals
-from devices.models import Device
-from devices.models import Client
+from devices.models import *
 from napalm import get_network_driver
+from devices.cisco_commands import *
 from celery.decorators import task
 
-#logger = get_task_logger(__name__)
-
-#@task(name="testtest")
-#def testtest():
-#	print('testtest')
-#	logger.info("Start task")
-#	now = datetime.now()
-#	result = scrapers.scraper_example(now.day, now.minute)
-#	logger.info("Task finished: result = %i" % result)
 
 
 
@@ -20,11 +11,8 @@ from celery.decorators import task
 def update_all_arp():
     try:
         devices = Device.objects.all()
-        for singledevice in devices:
-            driver = get_network_driver(singledevice.type)
-            device = driver(singledevice.ipadd, singledevice.user, singledevice.password)
-            device.open()
-            arp = device.get_arp_table()
+        for device in devices:
+            arp = get_device_arp(device.ipadd, device.type, device.user, device.password)
             for dev in arp:
                 cmac = dev['mac']
                 cipadd = dev['ip']
@@ -36,7 +24,7 @@ def update_all_arp():
                     pass
                 #note I put this in a try block and pass because it will fail often
                 try:
-                    if cmaccheck.mac and cipaddcheck.ipadd:
+                    if cmaccheck.mac or cipaddcheck.ipadd:
                         print('the mac and ip are already in the db')
                         continue
                 except Exception:
@@ -48,4 +36,4 @@ def update_all_arp():
             #once done with the device, close the connection
             device.close()
     except Exception:
-            print('Failed to get the arp table from a device')
+            print(f'Failed to get the arp table from a device: {device.name}')
