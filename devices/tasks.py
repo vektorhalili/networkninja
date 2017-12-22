@@ -21,12 +21,8 @@ def update_all_arp():
     try:
         devices = Device.objects.all()
         for singledevice in devices:
-            type = singledevice.type
-            ipadd = singledevice.ipadd
-            user = singledevice.user
-            password = singledevice.password
-            driver = get_network_driver(type)
-            device = driver(ipadd, user, password)
+            driver = get_network_driver(singledevice.type)
+            device = driver(singledevice.ipadd, singledevice.user, singledevice.password)
             device.open()
             arp = device.get_arp_table()
             for dev in arp:

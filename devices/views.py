@@ -122,28 +122,6 @@ class ClientsListView(ListView):
     model = models.Client
     template_name = 'clients.html'
 
-class mytestview(View):
-	def get(self,request):
-		return HttpResponse('this page matched the mytestview GET method')
-
-#class ArpDeviceView(View):
-#    form_class = DeviceNameForm
-#    template_name = 'devicearp.html'
-#    def post(self, request, *args, **kwargs):
-#        form = self.form_class(request.POST)
-#        form.is_valid()
-#        def form_valid():
-#            devicename = form.cleaned_data['name']
-#            try:
-#                device = Device.objects.get(name__iexact=devicename)
-#                device = get_device_arp(device.ipadd, device.type, device.user, device.password)
-#                return render(request, 'devicearp.html',{'devicefacts': devicefacts,'devicename': devicename})
-#            except Exception:
-#                #raise Http404
-#                print('error in getting the arp')
-#        form.is_valid()
-
-
 class ArpDeviceView(View):
     template_name = 'devicearp.html'
     form_class = DeviceNameForm
@@ -153,12 +131,23 @@ class ArpDeviceView(View):
             devicename = form.cleaned_data['name']
             try:
                 device = Device.objects.get(name__iexact=devicename)
-                print(device.ipadd)
-                print(device.type)
-                print(device.user)
-                print(device.password)
                 device = get_device_arp(device.ipadd, device.type, device.user, device.password)
             except Exception:
-                #raise Http404
-                print('error in try block getting device arp')
+                raise Http404
             return render(request, self.template_name, {'devicename': devicename, 'device' : device})
+
+
+class DeviceFactsView(View):
+    template_name = 'devicefacts.html'
+    form_class = DeviceNameForm
+    def post(self, request, *args, **kwargs):
+        form = self.form_class(request.POST)
+        if form.is_valid():
+            devicename = form.cleaned_data['name']
+            try:
+                device = Device.objects.get(name__iexact=devicename)
+                device = get_device_facts(device.ipadd, device.type, device.user, device.password)
+            except Exception:
+                raise Http404
+            return render(request, self.template_name, {'devicename': devicename, 'device' : device})
+
