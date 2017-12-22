@@ -5,7 +5,7 @@ from devices.views import *
 app_name = 'devices'
 
 urlpatterns = [
-    path('post_device.html', views.post_device, name='post_device'),
+    path('post_device', views.post_device, name='post_device'),
     path('devices/', views.devices, name='devices'),
     path('clients/', ClientsListView.as_view(), name='clients'),
     re_path('^devices/arp/', ArpDeviceView.as_view(), name='arp'),
