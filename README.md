@@ -7,19 +7,4 @@ Well I'm wondering the same thing.
 
 
 
-![new device](https://imgur.com/zTBuUJd)
-
-
-![device config](https://imgur.com/vX4A6Qn)
-
-
-
-![device facts](https://imgur.com/I76rvcp)
-
-
-
-![all arp](https://imgur.com/fV2RYcs)
-
-
-
-![all devices](https://imgur.com/TlpJsrU)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/eLxw7"><a href="//imgur.com/eLxw7"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
