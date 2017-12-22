@@ -6,5 +6,19 @@ Some of you might be wondering, what the hell is NetworkNinja?
 Well I'm wondering the same thing.
 
 
+![new device](https://i.imgur.com/zTBuUJd.png)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/eLxw7"><a href="//imgur.com/eLxw7"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+![device config](https://i.imgur.com/vX4A6Qn.png)
+
+
+
+![device facts](https://i.imgur.com/I76rvcp.png)
+
+
+
+![all arp](https://i.imgur.com/fV2RYcs.png)
+
+
+
+![all devices](https://i.imgur.com/TlpJsrU.png)
