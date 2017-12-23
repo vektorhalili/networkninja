@@ -10,29 +10,24 @@ from celery.decorators import task
 @task(name="update_all_arp")
 def update_all_arp():
     try:
-        devices = Device.objects.all()
+        try:
+            devices = Device.objects.all()
+        except Exception:
+            print('failed to read the DB')
         for device in devices:
-            arp = get_device_arp(device.ipadd, device.type, device.user, device.password)
+            try:
+                arp = get_device_arp(device.ipadd, device.type, device.user, device.password)
+            except Exception:
+                print('failed to execute get device arp command')
             for dev in arp:
-                cmac = dev['mac']
-                cipadd = dev['ip']
-                #check if mac or IP are already in DB before adding
                 try:
-                    cmaccheck = Client.objects.get(mac=cmac)
-                    cipaddcheck = Client.objects.get(ipadd=cipadd)
+                    newmac = dev['mac']
+                    newipadd = dev['ip']
+                    newclient = Client(mac=newmac, ipadd=newipadd)
+                    newclient.save()
+                    print('added the client')
                 except Exception:
-                    pass
-                #note I put this in a try block and pass because it will fail often
-                try:
-                    if cmaccheck.mac or cipaddcheck.ipadd:
-                        print('the mac and ip are already in the db')
-                        continue
-                except Exception:
-                    pass
-                #I put this outside of the block so it does not fail with the if
-                client = Client(mac=cmac,ipadd=cipadd)
-                client.save()
-                print('added the client')
+                    print('failed to put the device into the DB')
             #once done with the device, close the connection
             device.close()
     except Exception:

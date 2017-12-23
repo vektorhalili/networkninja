@@ -8,20 +8,13 @@ from devices.models import Device
 from devices.models import Client
 from devices.models import DeviceFacts
 from . import models
-from .forms import PostDevice
-from .forms import ArpDevice
-from .forms import ConfigDevice
-from .forms import DeviceFactsForm
-from .forms import DeviceNameForm
+from .forms import *
 from django.shortcuts import redirect
 from django.http import Http404
-from django.urls import reverse
-from django.views.generic import FormView
-from django.views.generic import ListView
-from django.views.generic import DetailView
-from django.views.generic import View
-from django.views.generic import TemplateView
-from django.views.generic.base import TemplateResponseMixin, ContextMixin
+from django.urls import *
+from django.views.generic import *
+from django.views.generic.base import *
+from django.views.generic.edit import *
 from .cisco_commands import *
 
 def index(request):
@@ -92,8 +85,7 @@ class ArpDeviceView(View):
                 device = Device.objects.get(name__iexact=devicename)
                 device = get_device_arp(device.ipadd, device.type, device.user, device.password)
             except Exception as arperror:
-                #raise Http404
-                print(f'the error was: {arperror}')
+                raise Http404
             return render(request, self.template_name, {'devicename': devicename, 'device' : device})
 
 
@@ -111,3 +103,6 @@ class DeviceFactsView(View):
                 raise Http404
             return render(request, self.template_name, {'devicename': devicename, 'device' : device})
 
+
+
+####testing

@@ -1,7 +1,7 @@
 from django import forms
 from .models import Device
 from napalm import get_network_driver
-
+from .cisco_commands import *
 
 def get_device_facts(ipadd, type, user, password):
     try:
@@ -19,8 +19,6 @@ class PostDevice(forms.ModelForm):
 	class Meta:
 		model = Device
 		fields = ('name','ipadd','type','user','password')
-class ArpDevice(forms.Form):
-	name = forms.CharField(max_length=20)
 
 class ConfigDevice(forms.Form):
 	name = forms.CharField(max_length=20)
@@ -30,3 +28,11 @@ class DeviceFactsForm(forms.Form):
 
 class DeviceNameForm(forms.Form):
 	name = forms.CharField(max_length=30)
+
+class DeviceArpForm(forms.Form):
+    name = forms.CharField(max_length=20)
+    def arp(self):
+        devicename = self.cleaned_data['name']
+        device = Device.objects.get(name__iexact=devicename)
+        device = get_device_arp(device.ipadd, device.type, device.user, device.password)
+        return devicename, device

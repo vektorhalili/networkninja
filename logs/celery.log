@@ -282,3 +282,19 @@ worker: Warm shutdown (MainProcess)
   . cisco_project.celery.debug_task
   . update_all_arp
 
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+usage: celery worker [options] 
+celery: error: unrecognized arguments: beat
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+usage: celery worker [options] 
+celery: error: unrecognized arguments: beat
+usage: celery worker [options] 
+celery: error: unrecognized arguments: beat
+supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
+supervisor: child process was not spawned
+usage: celery worker [options] 
+celery: error: unrecognized arguments: beat

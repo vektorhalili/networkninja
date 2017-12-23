@@ -20,12 +20,12 @@ class Device(models.Model):
 
 
 class Client(models.Model):
-	mac = models.CharField(max_length=19)
+	mac = models.CharField(max_length=19, primary_key=True)
 	ipadd = models.GenericIPAddressField()
 	def publish(self):
 		self.save()
 	def __str__(self):
-		return self
+		return self.mac
 
 class DeviceFacts(models.Model):
     uptime = models.IntegerField
