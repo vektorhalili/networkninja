@@ -298,3 +298,788 @@ supervisor: couldn't chdir to /root/venvs/cisco/cisco_project: EACCES
 supervisor: child process was not spawned
 usage: celery worker [options] 
 celery: error: unrecognized arguments: beat
+[2017-12-23 18:06:42,686: WARNING/MainProcess] /home/vhalili/venv/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-12-23 18:06:49,344: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:06:49,346: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:06:49,348: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:06:49,348: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:08:06,071: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:08:06,074: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:08:06,076: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:08:06,076: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:10:06,037: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:10:06,040: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:10:06,042: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:10:06,045: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:10:06,045: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:12:05,855: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:12:05,857: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:12:05,860: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:12:05,862: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:12:05,862: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:14:05,885: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:14:05,887: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:14:05,889: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:14:05,892: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:14:05,892: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:16:05,947: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:16:05,950: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:16:05,952: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:16:05,954: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:16:05,955: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:18:05,916: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:18:05,918: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:18:05,920: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:18:05,922: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:18:05,922: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:20:06,024: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:20:06,026: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:20:06,028: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:20:06,030: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:20:06,031: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:22:05,872: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:22:05,875: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:22:05,877: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:22:05,878: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:22:05,879: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:24:06,237: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:24:06,240: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:24:06,241: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:24:06,243: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:24:06,244: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:26:06,040: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:26:06,042: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:26:06,044: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:26:06,046: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:26:06,046: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:28:05,916: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:28:05,918: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:28:05,920: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:28:05,922: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:28:05,922: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:30:05,907: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:30:05,910: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:30:05,912: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:30:05,914: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:30:05,914: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:32:05,964: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:32:05,966: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:32:05,968: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:32:05,969: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:32:05,970: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:34:05,888: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:34:05,891: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:34:05,893: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:34:05,895: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:34:05,896: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:36:05,877: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:36:05,879: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:36:05,880: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:36:05,882: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:36:05,882: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:38:05,956: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:38:05,958: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:38:05,960: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:38:05,962: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:38:05,962: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:40:05,994: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:40:05,997: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:40:05,999: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:40:06,001: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:40:06,001: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:42:06,001: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:42:06,004: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:42:06,006: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:42:06,008: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:42:06,009: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:44:05,899: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:44:05,902: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:44:05,904: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:44:05,906: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:44:05,906: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:46:05,965: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:46:05,967: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:46:05,970: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:46:05,972: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:46:05,972: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:48:06,104: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:48:06,106: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:48:06,108: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:48:06,109: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:48:06,109: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:50:06,054: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:50:06,056: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:50:06,057: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:50:06,059: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:50:06,059: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:52:05,919: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:52:05,921: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:52:05,923: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:52:05,925: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:52:05,925: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:54:05,923: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:54:05,925: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:54:05,927: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:54:05,929: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:54:05,929: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:56:06,168: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:56:06,170: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:56:06,173: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:56:06,175: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:56:06,175: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 18:58:06,064: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:58:06,066: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:58:06,068: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:58:06,070: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 18:58:06,070: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:00:05,888: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:00:05,890: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:00:05,892: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:00:05,894: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:00:05,894: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:02:05,884: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:02:05,886: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:02:05,888: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:02:05,890: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:02:05,890: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:04:05,870: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:04:05,872: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:04:05,875: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:04:05,877: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:04:05,877: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:06:05,945: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:06:05,947: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:06:05,950: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:06:05,951: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:06:05,952: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:08:05,912: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:08:05,914: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:08:05,916: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:08:05,918: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:08:05,919: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:10:05,898: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:10:05,900: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:10:05,902: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:10:05,904: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:10:05,904: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:12:05,835: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:12:05,837: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:12:05,839: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:12:05,841: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:12:05,842: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:14:06,001: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:14:06,002: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:14:06,004: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:14:06,006: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:14:06,006: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:16:06,132: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:16:06,134: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:16:06,136: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:16:06,138: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:16:06,138: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:18:05,941: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:18:05,943: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:18:05,945: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:18:05,947: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:18:05,947: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:20:05,886: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:20:05,888: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:20:05,890: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:20:05,891: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:20:05,891: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:22:06,009: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:22:06,012: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:22:06,014: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:22:06,016: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:22:06,017: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:24:06,141: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:24:06,143: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:24:06,145: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:24:06,146: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:24:06,147: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:26:05,944: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:26:05,946: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:26:05,948: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:26:05,950: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:26:05,950: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:28:05,911: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:28:05,914: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:28:05,916: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:28:05,918: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:28:05,918: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:30:06,102: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:30:06,104: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:30:06,106: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:30:06,108: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:30:06,108: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:32:05,943: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:32:05,946: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:32:05,947: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:32:05,949: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:32:05,950: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:34:05,888: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:34:05,892: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:34:05,894: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:34:05,895: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:34:05,896: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:36:05,886: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:36:05,888: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:36:05,890: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:36:05,892: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:36:05,892: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:38:06,011: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:38:06,013: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:38:06,015: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:38:06,017: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:38:06,017: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:40:06,121: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:40:06,123: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:40:06,126: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:40:06,128: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:40:06,128: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:42:05,810: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:42:05,820: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:42:05,822: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:42:05,824: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:42:05,824: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:44:05,998: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:44:06,000: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:44:06,002: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:44:06,003: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:44:06,004: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:46:05,898: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:46:05,907: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:46:05,916: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:46:05,918: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:46:05,918: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:48:05,969: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:48:05,971: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:48:05,973: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:48:05,975: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:48:05,975: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:50:05,937: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:50:05,940: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:50:05,942: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:50:05,944: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:50:05,944: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:52:06,118: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:52:06,120: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:52:06,122: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:52:06,124: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:52:06,124: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:54:06,130: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:54:06,133: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:54:06,135: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:54:06,137: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:54:06,138: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:56:06,040: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:56:06,043: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:56:06,045: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:56:06,047: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:56:06,047: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 19:58:05,822: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:58:05,832: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:58:05,833: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:58:05,835: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 19:58:05,835: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:00:05,970: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:00:05,973: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:00:05,974: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:00:05,976: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:00:05,977: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:02:05,807: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:02:05,817: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:02:05,819: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:02:05,821: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:02:05,822: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:04:06,128: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:04:06,131: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:04:06,134: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:04:06,136: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:04:06,136: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:06:05,902: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:06:05,905: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:06:05,907: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:06:05,909: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:06:05,909: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:08:06,029: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:08:06,031: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:08:06,033: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:08:06,034: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:08:06,034: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:10:05,980: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:10:05,982: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:10:05,984: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:10:05,985: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:10:05,986: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:12:05,974: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:12:05,976: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:12:05,978: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:12:05,980: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:12:05,981: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:14:05,897: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:14:05,899: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:14:05,901: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:14:05,903: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:14:05,904: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:16:06,159: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:16:06,161: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:16:06,163: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:16:06,164: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:16:06,165: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:18:05,911: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:18:05,930: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:18:05,932: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:18:05,934: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:18:05,934: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:20:05,879: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:20:05,881: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:20:05,882: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:20:05,884: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:20:05,884: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:22:05,918: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:22:05,920: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:22:05,921: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:22:05,923: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:22:05,923: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:24:06,032: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:24:06,034: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:24:06,036: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:24:06,039: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:24:06,039: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:26:06,124: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:26:06,126: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:26:06,129: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:26:06,131: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:26:06,131: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:28:06,001: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:28:06,002: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:28:06,004: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:28:06,006: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:28:06,006: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:30:05,970: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:30:05,973: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:30:05,975: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:30:05,978: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:30:05,978: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:32:05,913: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:32:05,915: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:32:05,917: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:32:05,918: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:32:05,919: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:34:05,937: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:34:05,947: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:34:05,956: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:34:05,958: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:34:05,958: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:36:06,089: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:36:06,090: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:36:06,092: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:36:06,094: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:36:06,094: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:38:06,029: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:38:06,031: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:38:06,034: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:38:06,036: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:38:06,036: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:40:05,958: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:40:05,960: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:40:05,962: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:40:05,963: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:40:05,963: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:42:05,920: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:42:05,921: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:42:05,923: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:42:05,925: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:42:05,925: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:44:06,008: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:44:06,010: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:44:06,012: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:44:06,013: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:44:06,013: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:46:05,917: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:46:05,920: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:46:05,922: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:46:05,923: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:46:05,924: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:48:05,936: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:48:05,938: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:48:05,940: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:48:05,942: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:48:05,942: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:50:06,058: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:50:06,061: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:50:06,063: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:50:06,065: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:50:06,066: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:52:05,851: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:52:05,853: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:52:05,855: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:52:05,857: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:52:05,857: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:54:05,873: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:54:05,875: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:54:05,877: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:54:05,878: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:54:05,879: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:56:05,908: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:56:05,911: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:56:05,913: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:56:05,915: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:56:05,915: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 20:58:05,891: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:58:05,893: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:58:05,895: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:58:05,897: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 20:58:05,897: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:00:05,901: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:00:05,903: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:00:05,905: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:00:05,907: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:00:05,907: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:02:05,902: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:02:05,904: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:02:05,906: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:02:05,908: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:02:05,908: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:04:05,855: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:04:05,857: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:04:05,859: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:04:05,861: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:04:05,861: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:06:05,923: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:06:05,925: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:06:05,927: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:06:05,929: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:06:05,930: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:08:06,116: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:08:06,118: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:08:06,121: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:08:06,123: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:08:06,123: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:10:05,892: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:10:05,895: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:10:05,897: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:10:05,899: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:10:05,899: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:12:05,951: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:12:05,953: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:12:05,955: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:12:05,957: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:12:05,957: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:14:06,145: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:14:06,147: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:14:06,149: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:14:06,153: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:14:06,154: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:16:05,928: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:16:05,931: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:16:05,934: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:16:05,936: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:16:05,936: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:18:05,888: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:18:05,890: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:18:05,893: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:18:05,895: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:18:05,895: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:20:05,976: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:20:05,978: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:20:05,980: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:20:05,981: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:20:05,982: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:22:05,945: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:22:05,955: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:22:05,963: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:22:05,966: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:22:05,966: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:24:05,974: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:24:05,977: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:24:05,979: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:24:05,982: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:24:05,982: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:26:05,908: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:26:05,910: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:26:05,912: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:26:05,913: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:26:05,914: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:28:05,893: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:28:05,895: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:28:05,896: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:28:05,898: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:28:05,898: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:30:05,886: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:30:05,888: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:30:05,890: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:30:05,892: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:30:05,893: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:32:05,969: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:32:05,971: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:32:05,973: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:32:05,975: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:32:05,975: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:34:06,378: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:34:06,380: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:34:06,383: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:34:06,385: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:34:06,385: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:36:05,894: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:36:05,896: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:36:05,898: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:36:05,900: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:36:05,900: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:38:05,843: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:38:05,846: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:38:05,864: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:38:05,865: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:38:05,866: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:40:05,876: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:40:05,878: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:40:05,880: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:40:05,882: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:40:05,882: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:42:05,972: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:42:05,974: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:42:05,976: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:42:05,978: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:42:05,979: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:44:05,950: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:44:05,952: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:44:05,954: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:44:05,955: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:44:05,955: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:46:06,040: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:46:06,042: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:46:06,044: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:46:06,046: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:46:06,046: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:48:05,873: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:48:05,875: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:48:05,876: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:48:05,878: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:48:05,878: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:50:06,135: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:50:06,137: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:50:06,138: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:50:06,140: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:50:06,141: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:52:05,864: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:52:05,867: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:52:05,868: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:52:05,871: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:52:05,871: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:54:05,913: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:54:05,931: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:54:05,933: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:54:05,935: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:54:05,935: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:56:05,891: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:56:05,893: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:56:05,895: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:56:05,897: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:56:05,897: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 21:58:05,886: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:58:05,889: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:58:05,891: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:58:05,895: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 21:58:05,895: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:00:05,912: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:00:05,916: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:00:05,920: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:00:05,923: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:00:05,924: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:02:06,037: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:02:06,039: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:02:06,041: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:02:06,043: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:02:06,043: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:04:06,115: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:04:06,119: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:04:06,122: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:04:06,125: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:04:06,126: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:06:05,904: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:06:05,913: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:06:05,914: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:06:05,916: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:06:05,916: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:08:06,151: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:08:06,154: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:08:06,158: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:08:06,161: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:08:06,161: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:10:05,951: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:10:05,960: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:10:05,963: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:10:05,966: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:10:05,966: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:12:05,911: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:12:05,914: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:12:05,916: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:12:05,919: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:12:05,919: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:14:06,135: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:14:06,139: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:14:06,142: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:14:06,145: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:14:06,146: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:16:05,956: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:16:05,958: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:16:05,960: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:16:05,962: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:16:05,962: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:18:06,105: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:18:06,107: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:18:06,109: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:18:06,111: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:18:06,111: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:20:06,031: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:20:06,033: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:20:06,035: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:20:06,037: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:20:06,038: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:22:05,964: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:22:05,966: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:22:05,968: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:22:05,970: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:22:05,970: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:24:06,308: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:24:06,312: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:24:06,315: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:24:06,318: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:24:06,318: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:26:05,920: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:26:05,938: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:26:05,940: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:26:05,942: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:26:05,942: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:28:05,886: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:28:05,888: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:28:05,890: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:28:05,892: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:28:05,892: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:30:05,929: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:30:05,930: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:30:05,932: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:30:05,934: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:30:05,934: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:32:06,131: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:32:06,135: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:32:06,138: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:32:06,141: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:32:06,142: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:34:05,918: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:34:05,928: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:34:05,931: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:34:05,934: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:34:05,934: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:36:05,933: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:36:05,935: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:36:05,937: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:36:05,939: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:36:05,939: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:38:05,915: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:38:05,917: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:38:05,918: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:38:05,920: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:38:05,920: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:40:06,081: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:40:06,083: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:40:06,085: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:40:06,087: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:40:06,087: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:42:05,973: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:42:05,976: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:42:05,979: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:42:05,982: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:42:05,982: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:44:05,936: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:44:05,938: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:44:05,941: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:44:05,944: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:44:05,944: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:46:05,940: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:46:05,944: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:46:05,947: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:46:05,950: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:46:05,950: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:48:05,963: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:48:05,965: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:48:05,967: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:48:05,968: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:48:05,968: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:50:06,028: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:50:06,030: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:50:06,032: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:50:06,033: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:50:06,034: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:52:06,008: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:52:06,010: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:52:06,011: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:52:06,013: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:52:06,013: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:54:06,109: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:54:06,113: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:54:06,116: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:54:06,119: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:54:06,120: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:56:06,003: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:56:06,006: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:56:06,009: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:56:06,012: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:56:06,012: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 22:58:05,934: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:58:05,936: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:58:05,938: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:58:05,940: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 22:58:05,940: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:00:06,216: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:00:06,219: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:00:06,222: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:00:06,224: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:00:06,224: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:02:05,872: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:02:05,874: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:02:05,876: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:02:05,878: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:02:05,878: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:04:05,966: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:04:05,969: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:04:05,972: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:04:05,976: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:04:05,976: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:06:06,013: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:06:06,015: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:06:06,017: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:06:06,019: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:06:06,019: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:08:05,941: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:08:05,944: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:08:05,947: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:08:05,950: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:08:05,950: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:10:05,881: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:10:05,884: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:10:05,886: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:10:05,887: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:10:05,888: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:12:06,031: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:12:06,033: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:12:06,035: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:12:06,037: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:12:06,037: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:14:05,843: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:14:05,849: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:14:05,853: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:14:05,855: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:14:05,855: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:16:06,033: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:16:06,035: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:16:06,037: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:16:06,039: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:16:06,039: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-23 23:18:05,930: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:18:05,932: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:18:05,934: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:18:05,935: WARNING/ForkPoolWorker-3] added the client
+[2017-12-23 23:18:05,936: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch

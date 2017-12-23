@@ -5,11 +5,12 @@ from devices.views import *
 app_name = 'devices'
 
 urlpatterns = [
-    path('post_device', views.post_device, name='post_device'),
     path('devices/', views.devices, name='devices'),
-    path('clients/', ClientsListView.as_view(), name='clients'),
-    re_path('^devices/arp/', ArpDeviceView.as_view(), name='arp'),
-    #re_path('^devices/arp/', ArpDeviceView2.as_view(), name='arp'),
-    re_path('^devices/facts/', DeviceFactsView.as_view(), name='facts'),
+    path('device_create/', DeviceAddView.as_view(), name='DeviceAddView'),
+    path('devices/delete/', DeviceDeleteView.as_view(), name='DeviceDeleteView'),
+    path('clients/', ClientsListView.as_view(), name='ClientsListView'),
+    path('devices/arp/', DeviceArpView.as_view(), name='DeviceArpView'),
+    path('devices/config/', DeviceConfigView.as_view(), name='DeviceConfigView'),
+    path('devices/facts/', DeviceFactsView.as_view(), name='DeviceFactsView'),
     path('', views.index, name='index'),
 ]

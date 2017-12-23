@@ -26,13 +26,14 @@ class ConfigDevice(forms.Form):
 class DeviceFactsForm(forms.Form):
 	name = forms.CharField(max_length=20)
 
-class DeviceNameForm(forms.Form):
-	name = forms.CharField(max_length=30)
+#class DeviceNameForm(forms.Form):
+#	name = forms.CharField(max_length=30)
 
-class DeviceArpForm(forms.Form):
-    name = forms.CharField(max_length=20)
-    def arp(self):
-        devicename = self.cleaned_data['name']
-        device = Device.objects.get(name__iexact=devicename)
-        device = get_device_arp(device.ipadd, device.type, device.user, device.password)
-        return devicename, device
+class DeviceNameForm(forms.Form):
+    name = forms.CharField(max_length=30)
+    def get_device(self, devicename):
+        try:
+            device = Device.objects.get(name__iexact=devicename)
+        except Device.DoesNotExist:
+            return None
+        return device

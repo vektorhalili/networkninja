@@ -35,3 +35,14 @@ def get_device_facts(ipadd, type, user, password):
     except Exception:
         devicefacts='was not able to pull device facts'
     return devicefacts
+
+def device_action(action, ipadd, type, user, password):
+    if action == 'get_device_config':
+        config = get_device_config(ipadd, type, user, password)
+        return config
+    elif action == 'get_device_arp':
+        arp = get_device_arp(ipadd, type, user, password)
+        return arp
+    elif action == 'get_device_facts':
+        facts = get_device_facts(ipadd, type, user, password)
+        return facts

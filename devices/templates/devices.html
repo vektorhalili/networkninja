@@ -30,28 +30,28 @@
 
 <div class="btn-group pull-right">
 
-   <form method="POST" action="arp/device">{% csrf_token %}
-        <button type="submit" name="name" value="{{ device.name  }}" class="btn btn-primary"  >ARP</button>
-    </form>
- 
-
-
-    <form method="POST">{% csrf_token %}
-        <button type="submit" name="name" value="config:{{ device.name  }}" class="btn btn-primary" >CONFIG</button>
+   <form method="GET" action="{% url 'devices:DeviceArpView' %}">
+        <button type="submit" name="name" value="{{ device.name }}" class="btn btn-primary"  >ARP</button>
     </form>
 
+    <form method="GET" action="{% url 'devices:DeviceConfigView' %}">
+        <button type="submit" name="name" value="{{ device.name }}" class="btn btn-primary" >CONFIG</button>
+    </form>
 
+    <form method="GET" action="{% url 'devices:DeviceFactsView' %}">
+        <button type="submit"  name="name" value="{{ device.name }}" class="btn btn-primary">FACTS</button>
+    </form>
 
-    <form method="POST" action="facts/device"> {% csrf_token %}
-        <button type="submit"  name="name" value="{{ device.name  }}" class="btn btn-primary"   >FACTS</button>
+    <form method="GET" action="{% url 'devices:DeviceDeleteView' %}">
+        <button type="submit" name="name" value="{{ device.name }}" class="btn btn-danger">DELETE</button>
     </form>
 
 </div>
 
    {% endfor %}
 </br>
-<a href="/post_device" class="top-menu"><span class="glyphicon glyphicon-plus"></span> Add Device</a>
-</p>  
+<a href="{% url 'devices:DeviceAddView' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span> Add Device</a>
+</p>
 </div>
 </body>
 

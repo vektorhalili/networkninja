@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid bg-2 text-center">
+
+    <h1>Delete Device</h1>
+    <body>
+
+      <form action="" method="post">{% csrf_token %}
+          <p>Are you sure you want to delete "{{ object.name }}"?</p>
+          <input type="submit" value="Confirm" />
+      </form>
+
+</body>
+</div>
+{% endblock %}

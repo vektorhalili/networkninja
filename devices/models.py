@@ -6,7 +6,7 @@ from django.utils import timezone
 
 
 class Device(models.Model):
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=30, unique=True)
     type = models.CharField(max_length=3)
     ipadd = models.GenericIPAddressField()
     user = models.CharField(max_length=30)
