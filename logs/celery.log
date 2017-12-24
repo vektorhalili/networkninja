@@ -1275,3 +1275,8 @@ celery: error: unrecognized arguments: beat
 [2017-12-24 00:46:05,897: WARNING/ForkPoolWorker-3] added the client
 [2017-12-24 00:46:05,899: WARNING/ForkPoolWorker-3] added the client
 [2017-12-24 00:46:05,900: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
+[2017-12-24 00:48:05,889: WARNING/ForkPoolWorker-3] added the client
+[2017-12-24 00:48:05,892: WARNING/ForkPoolWorker-3] added the client
+[2017-12-24 00:48:05,895: WARNING/ForkPoolWorker-3] added the client
+[2017-12-24 00:48:05,898: WARNING/ForkPoolWorker-3] added the client
+[2017-12-24 00:48:05,899: WARNING/ForkPoolWorker-3] Failed to get the arp table from a device: mgmtswitch
