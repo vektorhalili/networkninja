@@ -4,13 +4,23 @@
 <div class="container-fluid bg-2 text-center">
   <h3 class="margin">Config for: {{ devicename }}</h3>
   <body>
-   ###BEGIN CONFIG###
+
+    ###BEGIN STARTUP CONFIG###
+    </br>
+     <code>
+    {{ device.running }}
+     </code>
+     </br>
+    ###END STARTUP CONFIG###
+  </br>
+</br>
+   ###BEGIN STARTUP CONFIG###
    </br>
     <code>
-   {{ device }}
+   {{ device.startup }}
     </code>
     </br>
-   ###END CONFIG###
+   ###END STARTUP CONFIG###
   </body>
 </div>
 {% endblock %}

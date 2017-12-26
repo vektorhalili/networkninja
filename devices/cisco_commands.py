@@ -19,7 +19,7 @@ def get_device_config(ipadd, type, user, password):
         device = driver(ipadd, user, password, optional_args=optional_args)
         device.open()
         config = device.get_config()
-        config = config['startup']
+        #config = config['startup']
         device.close()
     except Exception:
         config='was not able to pull device config'
