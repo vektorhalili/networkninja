@@ -21,4 +21,4 @@ Well I'm wondering the same thing.
 
 
 
-![all devices](https://i.imgur.com/TlpJsrU.png)
+![all devices](https://i.imgur.com/SEzUpTp.png)
