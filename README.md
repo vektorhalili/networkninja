@@ -1,9 +1,9 @@
 # networkninja
 
 
-Some of you might be wondering, what the hell is NetworkNinja? 
+What is NetworkNinja?
 
-Well I'm wondering the same thing.
+Network ninja is a custom Python, Django built network management platform. The backend tasks are built upon celery and the action buttons are built with NAPALM and NETMIKO.
 
 
 ![new device](https://i.imgur.com/zTBuUJd.png)
